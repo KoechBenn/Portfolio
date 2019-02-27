@@ -1,0 +1,85 @@
+body{ margin: 0px;}
+#first{
+	position: fixed;
+	top: 0px;
+	overflow:hidden;
+	width:100%;
+	height: 200px;
+	background: rgba(90, 76, 217, 1);
+	color: #FFF;
+	padding-top: 5px;
+	transition: height 0.3s linear 0s, padding 0.3s linear 0s;
+	z-index: 2;
+
+}
+#first > #menu{
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+	background: rgba(171, 157, 206, 0.4);
+	color: #000;
+	font-family: sans-serif;
+	height: 90px;
+	transition: height 0.3s linear 0s;
+}
+#wrapper{ 
+	margin-top: 175px;
+}
+#menu h1{
+	font-family: 'Merienda',serif;
+	color: white;
+	font-size: 48px;
+}
+#menu p{
+	font-family: 'Merienda',serif;
+	color: white;
+}
+#big_pic{
+	background-image: linear-gradient(to bottom, rgba(171, 157, 206, 0.4), rgba(171, 157, 206, 0.4)),url('../images/ben.jpg');
+	background-repeat: no-repeat;
+	height: 510px;
+	background-position: center;
+	background-size: 1500px 800px, cover;
+	background-attachment: fixed;
+}
+.text_bg{
+	padding-top: 17%;
+	font-family: 'Roboto',serif;
+	font-style: bolder;
+	color: #F5F5F5;
+}
+.text_bg  h2 {
+	font-size: 59px;
+	padding-left: 9px;
+	border-left: 4px solid #6200EA;
+}
+.text_bg h3{
+	padding-left: 9px;
+	border-left: 4px solid #6200EA;
+}
+.btn-social{
+	
+	color: #673AB7;
+	border-left: 4px solid white;
+}
+#about_me{
+	background-image: linear-gradient(to bottom, rgba(171, 157, 206, 0.4), rgba(171, 157, 206, 0.4)),url('../images/km.jpg');
+	background-repeat: no-repeat;
+	/*height: 510px;*/
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#about_me h1{
+	font-size: 60px;
+	color: white;
+	height: auto;
+	padding-top: 22%;
+	text-align: center;
+}
+.myworks_title{
+	font-family: 'Permanent Marker';
+	font-style: italic;
+}
+
+	
